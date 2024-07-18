@@ -18,10 +18,10 @@ export class ScrollToTopService {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         if (event.url === '/pf') {
-          window.scrollTo({ top: 640, behavior: 'smooth' });
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         if (event.url === '/pj') {
-          window.scrollTo({ top: 640, behavior: 'smooth' });
+          window.scrollTo({ top: 0, behavior: 'smooth' });
         }
       }
     });
